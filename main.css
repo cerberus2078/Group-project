@@ -1,11 +1,19 @@
-ul {
-    list-style-type: horizontal;
-    width: 750px;
-    margin: 0 auto;
-    display: flex;
+.container-fluid {
     justify-content: space-between;
-    display: inline; margin-right: 100px;
-    background-color: rgb(36, 5, 36);
-    padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 20px;
+    margin-left: 20px;
+}
 
-  }
+body {
+    color: rgb(45, 6, 45);
+}
+
+nav li {
+    display: inline;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    
+}
+
+nav {
+background-color: rgb(57, 9, 57);
+}
