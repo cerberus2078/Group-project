@@ -1,6 +1,4 @@
-.row {
-    
-}
+.row {}
 
 .container {
     text-decoration: none;
@@ -14,4 +12,8 @@
 .container-fluid {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.block-white {
+    color: white;
 }
