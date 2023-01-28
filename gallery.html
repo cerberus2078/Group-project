@@ -17,16 +17,42 @@
         background-color: #58426e;
         height: 100px;
       }
+
+      strong{
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-large;
+      }
+
+      .maindiv{
+        width: 90%;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 54%;
+        transform: translate(-50%,-50%);
+        background-image: url('images/Images/slider1.jpg');
+        background-size: 100%,100%;
+        box-shadow: 1px 2px 10px 5px white;
+        animation: slider 9s infinite linear;
+      }
+
+      @keyframes slider {
+        0%{ background-image: url('images/Images/slider1.jpg');}
+        35%{ background-image: url('images/Images/slider2.jpg');}
+        75%{ background-image: url('images/Images/slider3.webp'); }
+      }
+
   
       footer {
         background-color: #58426e;
       }
 
-      .btn{
-        background-color: #58426e;
-      }
+    </style>
+  
+  </head>
 
-      .img-fluid{
+  <!--.img-fluid{
         padding-top: 30px;
         padding-bottom: 30px;
       }
@@ -34,11 +60,7 @@
       .row {
         width: 930px;
         
-      }
-
-    </style>
-  
-  </head>
+      }-->
 
   <body>
 
@@ -74,29 +96,45 @@
       </nav>
       <!--Navbar ends-->
 
-      <div class="container">
-        <h1 class="display-1 text-center">
+      
+
+      <div class="container mt-12">
+        <h2 class="display-1 text-center">
           <strong>
                 Gallery
           </strong>
-        </h1>
+        </h2>
 
+        <!--image slider starts-->
+
+          <div class="maindiv">
+          </div>
+        <!--image slider ends-->
+
+        <!--gallery-->
         <div class="row">
-          <div class="col">
-            <img src="" alt="">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img class="img-fluid shadow rounded mb-4" src="images/Images/event1.jpg" alt="event1">
           </div>
-          <div class="col">
-            <img src="" alt="">
+
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img class="img-fluid shadow rounded mb-4" src="images/Images/event7.jpg" alt="event2">
           </div>
-          <div class="col">
-            <img src="" alt="">
+
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img class="img-fluid shadow rounded mb-4" src="images/Images/event3.jpg" alt="event3">
           </div>
-          <div class="col">
-            <img src="" alt=""></div>
-          <div class="col">
-            <img src="" alt=""></div>
-          <div class="col">
-            <img src="" alt="">
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid shadow rounded mb-4" src="images/Images/event4.jpg" alt="event4">
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid shadow rounded mb-4" src="images/Images/event9.jpg" alt="event5">
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid shadow rounded mb-4" src="images/gallery1.jpg" alt="event6">
           </div>
         </div>
       </div>
