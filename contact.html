@@ -21,13 +21,37 @@
        background-color: #58426e;
        height: 100px;
      }
- 
+
+     .contact{
+      color: #fff;
+     }
+
+     .p{
+      color: #fff;
+     }
+     .contactform{
+      margin: 100px;
+
+     }
+
+     .form-control{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: medium;
+     }
+
+     .button{
+      margin-left: 170px;     }
+
      footer {
        background-color: #58426e;
      }
 
      .btn{
        background-color: #58426e;
+     }
+
+     .text col-lg-12 col-md-12{
+      padding-bottom: 0%;
      }
      
      .social{
@@ -53,6 +77,7 @@
     }
 
   .copyright{
+    margin-right: 20px;
     float: right;
     position: static; 
   }
@@ -64,55 +89,55 @@
   <body>
     
     <!--Navbar Starts-->
-    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="main.html" >
-        <img src="images/LogoMakr-7qPWOZ.jpg" alt="Website name FestEvent"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-white" aria-current="page" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--Navbar ends-->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid col-lg-11 mb-md-0">
+      <a class="navbar-brand" href="main.html" >
+      <img src="images/LogoMakr-7qPWOZ.jpg" alt="Website name FestEvent"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+    </div>
+    </div>
+  </nav>
+  <!--Navbar ends-->
 
     <!--Contact form starts-->
     <div class="contact">
     <div class="container">
         <section class="mb-4">
-          <h2 class="h1-responsive font-weight-bold text-center my-5">Contact Us</h2>
+          <h2 class="h1-responsive font-weight-bold text-center my-5 color:#fff">Contact Us</h2>
           <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within 
             a matter of hours to help you.</p>
     
-            <div class="row py-5">
+            <div class="row py-3">
 
                 <div class="col-md-8">
                   <form id="contactform">
                     <div class="row">
                       <div class="col-md-3 py-3">
-                        <div class="md-form mb-2">
+                        <div class="md-form mb-6">
                           <input type="text" name="name" class="form-control">
                           <label for="name">Your Name:</label>
                         </div>
                       </div>
 
                       <div class="col-md-3 py-3">
-                        <div class="md-form mb-2">
+                        <div class="md-form mb-6">
                           <input type="text" name="email" class="form-control">
                           <label for="email">Your E-mail:</label>
                         </div>
@@ -127,7 +152,7 @@
                     <div class="col-md-12 text-center text-primary">
                       <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                          <p class="text-dark">HAMK</p> </li>
+                          <p>Helsinki</p> </li>
                       </ul>
                       </div>
                   </div>
@@ -150,7 +175,7 @@
                   <div class="col-md-4 text-center text-primary">
                     <ul class="list-unstyled mb-0">
                       <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                        <p class="text-dark">+358 518115115</p> </li>
+                        <p>+358 518115115</p> </li>
                       </ul>
                   </div>
               
@@ -172,12 +197,12 @@
                     <div class="col-md-4 text-center text-primary">
                       <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                          <p class="text-dark">festevent@gmail.com</p> </li>
+                          <p>festevent@gmail.com</p> </li>
                       </ul>
                     </div>
 
     
-                    <div class="text-center text-md-left">
+                    <div class="button">
                       <button class="btn btn-primary" type="submit">Send</button>
                     </div>
             </div>
@@ -195,11 +220,11 @@
 
 
     <!--Footer-->
-    <footer class="bg-dark text-center text-lg-start text-white">
+    <footer class="text-center text-lg-start text-white">
         <!-- Grid container -->
     <!-- Section: Social media -->
         </div>
-        <div class="container p-4">
+        <div class="container py-3">
           <!--Grid row-->
           <div class="row">
             <!--Grid column-->
@@ -239,17 +264,17 @@
         </div>
 
         <!-- Grid container -->
-        <div class="text col-lg-6 col-md-12 mb-4 mb-md-0" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text col-lg-12 col-md-12" style="background-color: rgba( 0, 0.2);">
           <div class="social">
           <ul>
             <li><i class="fab fa-facebook-f text-white"></i></li>
             <li><i class="fab fa-twitter text-white"></i></li>
             <li><i class="fab fa-instagram text-white"></i></li>
             <li><i class="fab fa-pinterest text-white"></i></li>
-            
-            </div>
+          </ul>  
+          </div>
 
-          </ul>
+          
 
           <div class="copyright">
             <!-- Copyright -->
