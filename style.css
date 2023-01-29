@@ -48,6 +48,8 @@ p2{
 
 footer{
     background-color: rgb(255, 255, 255);}
+
+    
     p3{
         display: flexbox;
         justify-content: center;
