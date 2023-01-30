@@ -2,13 +2,6 @@
         background-color: rgb(48, 25, 52);
     }
 
-<<<<<<< Updated upstream
-footer{
-    background-color: rgb(255, 255, 255);}
-
-    
-    p3{
-=======
     h1{
         display: flexbox;
         justify-content: center;
@@ -20,7 +13,6 @@ footer{
         color: rgb(255, 255, 255);
     }
     p{
->>>>>>> Stashed changes
         display: flexbox;
         justify-content: center;
         align-items: center;
@@ -38,16 +30,6 @@ footer{
         font-size: 20px;
         padding-bottom: 10px;
         padding-top: 1px;
-<<<<<<< Updated upstream
-        color: rgb(18, 16, 16);
-    }
-
-
-    .body {
-        margin: 0;
-        padding: 0;
-    }
-=======
         color: rgb(235, 51, 36);
     }
     p2{
@@ -87,4 +69,3 @@ footer{
             padding-top: 1px;
             color: rgb(18, 16, 16);
         }
->>>>>>> Stashed changes
